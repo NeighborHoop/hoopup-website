@@ -6,7 +6,7 @@ export default [
   },
   {
     path: 'support',
-    label: 'Support',
+    label: 'Intro',
   },
   {
     path: 'features',
@@ -14,7 +14,7 @@ export default [
   },
   {
     path: 'pricing',
-    label: 'Pricing',
+    label: 'Battlefield',
   },
   {
     path: 'testimonials',

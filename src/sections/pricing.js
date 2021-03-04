@@ -97,13 +97,13 @@ const Pricing = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="What deal suit you perfect"
-          description="Meet our pricing plan"
+          title="Join the battle to boost your player rating"
+          description="Get your own ankle breaker highlights!"
         />
         <Flex sx={styles.priceSwitcher}>
-          <Text as="span">Monthly Plan</Text>
+          <Text as="span">Local Battle</Text>
           <Switch isMonthly={isMonthly} handlePlan={handlePlan} />
-          <Text as="span">Annual Plan</Text>
+          <Text as="span">Tournament</Text>
         </Flex>
         <Box sx={styles.priceWrapper}>
           {data?.map((price, index) => (
